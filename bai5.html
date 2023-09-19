@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let diemKT = +prompt('Diem kiem tra');
+  let diemGiuaKy = +prompt('Diem giua ky');
+  let diemCuoiKy = +prompt('Diem cuoi ky');
+  let tbMon = ( diemKT + diemGiuaKy + diemCuoiKy ) / 3
+  if(tbMon >= 8 ){
+    alert('Ban la hs gioi')
+  } else if (tbMon >= 6.5){
+    alert('Ban la hs kha')
+  }else {
+    alert('Ban la hs TB')
+  }
+</script>
+</body>
+</html>
